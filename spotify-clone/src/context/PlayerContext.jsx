@@ -9,7 +9,7 @@ const PlayerContextProvider = (props) => {
     const audioRef = useRef();
     const seekBg = useRef();
     const seekBar = useRef();
-    const url = 'https://spotify-clone-backend-2bp7.onrender.com/'
+    const url = 'https://spotify-clone-backend-2bp7.onrender.com'
 
     const [songsData, setSongsData] = useState([]);
     const [albumsData,setAlbumData] = useState([]);
