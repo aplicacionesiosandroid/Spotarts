@@ -14,10 +14,19 @@ Spotify Admin Panel  Deploy Link https://spotify-clone-admin-liart.vercel.app/
 <br>
 
 <h2>Table of Contents</h2>
-<li><a href="overview">Overview</li>
 <li><a href="features">Features</li>
 <li><a href="installation">Installation</li>
 <li><a href="frontend setup">Frontend SetUp</li>
 <li><a href="backend setup">Backend SetUp</li>
 <li><a href="usage">Usage</li>
+
+<h2>Features</h2>
+
+<li>Responsive Design: Responsive layout with Tailwind CSS for a modern look and feel.</li>
+<li>Music Player: Basic controls to play, pause, and skip tracks.</li>
+<li>Database Integration: Store playlists, and track information in MongoDB.</li>
+
+<br>
+
+
 
