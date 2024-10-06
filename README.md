@@ -14,7 +14,7 @@ Spotify Admin Panel  Deploy Link https://spotify-clone-admin-liart.vercel.app/
 <br>
 
 <h2>Table of Contents</h2>
-<li><a href="features">Features</li>
+<li><a #href="features">Features</li>
 <li><a href="installation">Installation</li>
 <li><a href="frontend setup">Frontend SetUp</li>
 <li><a href="backend setup">Backend SetUp</li>
