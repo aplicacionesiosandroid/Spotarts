@@ -83,7 +83,7 @@ To set up the project locally, follow these steps:
 
   Run the following command to start the admin server:
 
-     npm start
+     npm run dev
 
   This will launch the admin interface, where you can manage songs and albums.
 
