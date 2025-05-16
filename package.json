@@ -26,3 +26,4 @@
     "node": ">=18"
   }
 }
+"prepare": "if [ \"$CI\" != \"true\" ]; then husky install; fi"
