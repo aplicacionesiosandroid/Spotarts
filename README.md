@@ -1,5 +1,5 @@
-<h1>Spotify Clone</h1>
-A Full Stack Spotify Clone made using MERN Stack. User can add songs and albums or remove them with the admin panel. In spotify clone frontend i build music player through which user listen music and implemented features of play and pause, users can move to previous and next song. Clicking on song plays song and clicking on album display the album in the page with song list and user can go back to the home by clicking on it.
+<h1>Spotarts</h1>
+A Full Stack Spotarts made using MERN Stack. User can add songs and albums or remove them with the admin panel. In spotify clone frontend i build music player through which user listen music and implemented features of play and pause, users can move to previous and next song. Clicking on song plays song and clicking on album display the album in the page with song list and user can go back to the home by clicking on it.
 
 <br>
 
@@ -34,18 +34,14 @@ Spotify Admin Panel  Deploy Link https://spotify-clone-admin-liart.vercel.app/
 <h2>Installation</h2>
 
 To set up the project locally, follow these steps:
+<h1> 1 ejecutar para despliegue
+  pnpm build:admin
 
-<h2>1. Clone the Repository</h2>
+y 
+firebase deploy
+</h1>
 
-    git clone https://github.com/Khaleeq01/Spotify-Clone.git
-
-<h2>2. Navigate to the Project Directory</h2>
-
-    cd Spotify-Clone
-
-<h2>Frontend Setup</h2>
-
-<h2>1. Navigate to the Frontend Directory</h2>
+  
 
     cd spotify-clone
 
