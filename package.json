@@ -1,0 +1,28 @@
+{
+  "name": "spotarts",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Monorepo del proyecto Spotarts: admin (frontend) + backend",
+  "workspaces": [
+    "admin",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "pnpm --recursive run dev",
+    "dev:admin": "pnpm --filter admin dev",
+    "dev:backend": "pnpm --filter backend dev",
+    "build:admin": "pnpm --filter admin build",
+    "lint": "pnpm --recursive run lint",
+    "format": "pnpm --recursive run format",
+    "firebase:init": "firebase init",
+    "firebase:deploy": "firebase deploy",
+    "firebase:serve": "firebase serve",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
