@@ -1,0 +1,23 @@
+format_version: '11'
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+
+project_type: other
+
+workflows:
+  deploy-firebase:
+    steps:
+      - git-clone@8: {}
+      - npm@1:
+          inputs:
+            - command: install
+            - workdir: "admin"
+      - npm@1:
+          inputs:
+            - command: run build
+            - workdir: "admin"
+      - script@1:
+          title: Firebase deploy
+          inputs:
+            - content: |-
+                npm install -g firebase-tools
+                firebase deploy --token "$FIREBASE_TOKEN"
